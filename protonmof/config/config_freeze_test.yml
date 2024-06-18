@@ -1,0 +1,43 @@
+dataset:
+    train_data_path: {your_path}/protonmof/database/fold/train_fold5.csv
+    valid_data_path: {your_path}/protonmof/database/fold/valid_fold5.csv
+    test_data_path: {your_path}/protonmof/database/fold/test_fold.csv
+    mof_desc_path : {your_path}/protonmof/database/features/moftransformer_features.json
+    guest_desc_path : {your_path}/protonmof/database/features/chembert_guest.json
+    prop_scaler: true # property scaler
+    t_scaler: true # Temperature scaler
+    rh_scaler: true # RH Scaler
+    mean: -4.7550 # property mean value
+    std: 1.6474 # property std value
+    t_mean: 325.72 # Temperature mean value
+    t_std: 28.15 # Temperature std value
+    rh_mean: 79.14 # RH mean value
+    rh_std: 24.95 # RH std value
+
+
+model:
+    act: silu 
+    arr: None
+    arr_reg_rate: 0
+    ea_reg_rate: 0
+    desc_dim: 768
+    hidden_dim: 400
+    num_layer: 2
+    rmse: False    
+    
+train:
+    exp_name: fold5
+    log_dir: fold5
+    seed: 0
+    epochs: 30
+    batch_size: 128
+    num_workers: 8
+    num_nodes: 1
+    weight_decay: 1e-2
+    warmup_epochs : 2
+    init_lr : 1e-5
+    max_lr: 5e-5
+    final_lr: 1e-5
+
+test:
+    ckpt_path: {your_path}/protonmof/ckpt/freeze_best/best.ckpt

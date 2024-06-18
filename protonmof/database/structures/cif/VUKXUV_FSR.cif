@@ -1,0 +1,88 @@
+data_VUKXUV_FSR
+_audit_creation_date              2024-06-11
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    7.9858
+_cell_length_b                    9.1574
+_cell_length_c                    9.4523
+_cell_angle_alpha                 62.0250
+_cell_angle_beta                  82.3350
+_cell_angle_gamma                 72.8730
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Zn1    Zn    0.00796   0.83185   0.82516   0.00000  Uiso   1.00
+O2     O    -0.15970   0.17520   0.37020   0.00000  Uiso   1.00
+O3     O     0.16460   0.59710   0.98600   0.00000  Uiso   1.00
+O4     O    -0.14330   0.88670   0.00330   0.00000  Uiso   1.00
+O5     O     0.15030   0.32740   0.14140   0.00000  Uiso   1.00
+O6     O    -0.14940   0.02810   0.14340   0.00000  Uiso   1.00
+O7     O    -0.15330   0.03620   0.63840   0.00000  Uiso   1.00
+C8     C     0.09110   0.47840   0.03660   0.00000  Uiso   1.00
+C9     C    -0.08470   0.97530   0.04240   0.00000  Uiso   1.00
+C10    C    -0.09020   0.06030   0.50350   0.00000  Uiso   1.00
+Zn11   Zn   -0.00796   0.16815   0.17484   0.00000  Uiso   1.00
+O12    O     0.15970   0.82480   0.62980   0.00000  Uiso   1.00
+O13    O    -0.16460   0.40290   0.01400   0.00000  Uiso   1.00
+O14    O     0.14330   0.11330   0.99670   0.00000  Uiso   1.00
+O15    O    -0.15030   0.67260   0.85860   0.00000  Uiso   1.00
+O16    O     0.14940   0.97190   0.85660   0.00000  Uiso   1.00
+O17    O     0.15330   0.96380   0.36160   0.00000  Uiso   1.00
+C18    C    -0.09110   0.52160   0.96340   0.00000  Uiso   1.00
+C19    C     0.08470   0.02470   0.95760   0.00000  Uiso   1.00
+C20    C     0.09020   0.93970   0.49650   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Zn1    O3      2.087   .     S
+Zn1    O4      2.107   1_556 S
+Zn1    O7      2.089   1_565 S
+Zn1    O12     2.086   .     S
+Zn1    O15     2.091   .     S
+Zn1    O16     2.076   .     S
+O2     C10     1.266   .     S
+O2     Zn11    2.086   .     S
+O3     C8      1.252   1_556 S
+O4     Zn1     2.107   1_554 S
+O4     C9      1.251   .     S
+O5     C8      1.254   .     S
+O5     Zn11    2.091   .     S
+O6     C9      1.252   1_545 S
+O6     Zn11    2.076   .     S
+O7     Zn1     2.089   1_545 S
+O7     C10     1.248   .     S
+C8     O3      1.252   1_554 S
+C8     C18     1.557   1_554 S
+C9     O6      1.252   1_565 S
+C9     C19     1.552   1_564 S
+C10    C20     1.551   1_545 S
+Zn11   O13     2.087   .     S
+Zn11   O14     2.107   1_554 S
+Zn11   O17     2.089   1_545 S
+O12    C20     1.266   .     S
+O13    C18     1.252   1_554 S
+O14    Zn11    2.107   1_556 S
+O14    C19     1.251   .     S
+O15    C18     1.254   .     S
+O16    C19     1.252   1_565 S
+O17    Zn11    2.089   1_565 S
+O17    C20     1.248   .     S
+C18    O13     1.252   1_556 S
+C18    C8      1.557   1_556 S
+C19    O16     1.252   1_545 S
+C19    C9      1.552   1_546 S
+C20    C10     1.551   1_565 S

@@ -1,0 +1,19 @@
+TITLE      1004
+REMARK   1 File created by GaussView 6.1.1
+HETATM    1  P           0       0.094  -0.000  -0.007                       P
+HETATM    2  O           0      -0.646  -0.865  -1.153                       O
+HETATM    3  O           0      -0.541  -0.557   1.371                       O
+HETATM    4  O           0      -0.500   1.494  -0.159                       O
+HETATM    5  O           0       1.593  -0.071  -0.052                       O
+HETATM    6  H           0      -1.627  -0.881  -1.178                       H
+HETATM    7  H           0      -1.515  -0.551   1.482                       H
+HETATM    8  H           0      -0.138   2.081  -0.857                       H
+END
+CONECT    1    2    3    4    5
+CONECT    2    1    6
+CONECT    3    1    7
+CONECT    4    1    8
+CONECT    5    1
+CONECT    6    2
+CONECT    7    3
+CONECT    8    4
