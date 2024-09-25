@@ -1,0 +1,44 @@
+dataset:
+    train_data_path: 
+    valid_data_path:
+    test_data_path: /home/seunghh/MOFTransformer/proton/240408_all_again_GELQOG/fold/test_fold5.csv
+    mof_desc_path : ./mof_features.eval.json
+    guest_desc_path : ,./guest_features_eval.json
+    prop_scaler: true
+
+    t_scaler: true
+    rh_scaler: true
+    mean: -4.7550
+    std: 1.6474
+    t_mean: 325.72
+    t_std: 28.15
+    rh_mean: 79.14
+    rh_std: 24.95
+
+
+model:
+    act: silu
+    arr: None
+    arr_reg_rate: 0
+    ea_reg_rate: 0
+    desc_dim: 768
+    hidden_dim: 400
+    num_layer: 2
+    rmse: False    
+    
+train:
+    exp_name: fold3
+    log_dir: log_fold3
+    seed: 0
+    epochs: 30
+    batch_size: 128
+    num_workers: 8
+    num_nodes: 1
+    weight_decay: 1e-2
+    warmup_epochs : 2
+    init_lr : 1e-5
+    max_lr: 5e-5
+    final_lr: 1e-5
+
+finetune:
+    ckpt_path: None
